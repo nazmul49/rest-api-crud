@@ -1,5 +1,5 @@
 const { check, validationResult } = require('express-validator');
-const { getUserByEmail } = require('../service/user.service');
+const { getUserByEmail } = require('../services/user.service');
 
 const addUserValidator = [
     check('first_name')
